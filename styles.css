@@ -1,0 +1,43 @@
+body {
+  background-image: url('assets/background2.jpg');
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.game-info {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+#canvas {
+  border: 1px solid #333;
+  background: #f0d9b5;
+  margin-bottom: 20px;
+}
+
+#restart {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#restart:hover {
+  background-color: #45a049;
+}

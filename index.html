@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gomoku Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>五子棋 (Five in a Row)</h1>
+    <div class="game-info">当前棋手: <span id="player-turn">Black</span></div>
+    <canvas id="canvas" width="600" height="600"></canvas>
+    <button id="restart" onclick="play()">重新开始</button>
+  </div>
+  <script src="gomoku.js"></script>
+</body>
+
+</html>
